@@ -71,7 +71,7 @@ public abstract class MultiItemAdapter extends RecyclerView.Adapter<BaseViewHold
         private ITEM item;
         private int itemViewType;
 
-        public Row(ITEM item, int itemViewType) {
+        private Row(ITEM item, int itemViewType) {
             this.item = item;
             this.itemViewType = itemViewType;
         }
